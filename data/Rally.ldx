@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LDXFile Version="1.5">
+  <Layers>
+    <Layer>
+      <MarkerBlock>
+        <MarkerGroup Name="StageMarkers" Index="10">
+          <Marker Version="100" ClassName="STGSTRT" Name="Manual.8" Flags="77" Time="7984853.500000"/>
+          <Marker Version="100" ClassName="STGEND" Name="Manual.8" Flags="77" Time="141984848.000000"/>
+          <Marker Version="100" ClassName="STGSTRT" Name="Manual.9" Flags="77" Time="157841872.000000"/>
+          <Marker Version="100" ClassName="STGEND" Name="Manual.9" Flags="77" Time="277841856.000000"/>
+        </MarkerGroup>
+      </MarkerBlock>
+      <RangeBlock/>
+    </Layer>
+    <Details>
+      <String Id="Fastest Time" Value="1:59.999"/>
+      <String Id="Log Time" Value="2:32 PM"/>
+      <String Id="Event" Value="Test Session"/>
+      <String Id="Vehicle Type" Value="Car"/>
+      <String Id="Engine Id"/>
+      <String Id="Log Time And Date" Value="6/10/2005  2:32 PM"/>
+      <String Id="Long Comment"/>
+      <String Id="Short Comment"/>
+      <String Id="Vehicle Comment"/>
+      <String Id="Venue" Value="Belgrave"/>
+      <String Id="Weather Comment"/>
+      <String Id="Wind Direction"/>
+      <String Id="Driver" Value="Roger Outback"/>
+      <String Id="Session"/>
+      <String Id="Total Laps" Value="2"/>
+      <String Id="Vehicle Drive Type" Value="Four Wheel Drive"/>
+      <String Id="Vehicle Id" Value="x234"/>
+      <String Id="Fastest Lap" Value="1"/>
+      <String Id="Sky"/>
+      <String Id="Vehicle Desc"/>
+      <Numeric Id="Vehicle Wheelbase" Value="2000.00" Unit="mm"/>
+      <String Id="Log Date" Value="6/10/2005"/>
+    </Details>
+  </Layers>
+</LDXFile>
