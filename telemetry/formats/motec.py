@@ -17,7 +17,8 @@ class Telemetry(CoreTelemetry):
         'driver': [158, 64],
         'vehicle_id': [222, 64],
         'engine_id': [286, 64],
-        'venue': [350, 64]
+        'venue': [350, 64],
+        'short_comment': [1572, 64]
     }
 
     _data = {
@@ -27,7 +28,8 @@ class Telemetry(CoreTelemetry):
         'driver': '',
         'vehicle_id': '',
         'engine_id': '',
-        'venue': ''
+        'venue': '',
+        'short_comment':  ''
     }
 
     def show(self):
@@ -48,6 +50,7 @@ class Telemetry(CoreTelemetry):
         self.read_block('vehicle_id')
         self.read_block('engine_id')
         self.read_block('venue')
+        self.read_block('short_comment')
         # Debug
         self.print_block('device_type')
         self.print_block('date')
@@ -56,6 +59,7 @@ class Telemetry(CoreTelemetry):
         self.print_block('vehicle_id')
         self.print_block('engine_id')
         self.print_block('venue')
+        self.print_block('short_comment')
 
     def check_file_format(self):
         return self._file.read(1) == b'@'
